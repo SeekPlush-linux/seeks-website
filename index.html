@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seek Plush's Bio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png"/>
+
+    <meta property="og:title" content="Seek Plush">
+    <meta property="og:description" content="meow :3">
+    <meta property="og:image" content="https://seeky.gay/v2/pfp.png">
+    <meta property="og:url" content="https://seeky.gay/v2">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#E67E22"/>
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Seek Plush">
+    <meta name="twitter:description" content="meow :3">
+    <meta name="twitter:image" content="https://seeky.gay/v2/pfp.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- VIGNETTE - On top -->
+    <div class="vignette"></div>
+
+    <!-- GRADIENT MESH - Brighter colors -->
+    <div class="gradient-mesh">
+        <div class="mesh-blob blob-1"></div>
+        <div class="mesh-blob blob-2"></div>
+        <div class="mesh-blob blob-3"></div>
+        <div class="mesh-blob blob-4"></div>
+    </div>
+
+    <!-- CRT SCANLINES - Thick and visible -->
+    <div class="crt-lines"></div>
+
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <div class="loader-text">loading...</div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-dot" id="cursor-dot"></div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="card-wrapper">
+            <div class="card">
+                <div class="profile-section">
+                    <div class="pfp-wrapper">
+                        <div class="pfp-glow"></div>
+                        <img src="pfp.png" alt="Seek Plush" class="pfp">
+                        <div class="status-indicator"></div>
+                    </div>
+
+                    <h1 class="username" id="username">
+                        <span id="typed-name"></span><span class="typing-cursor"></span>
+                    </h1>
+                    <p class="bio" id="typed-bio"></p>
+                </div>
+
+                <div class="links">
+                    <a href="https://discord.com/users/1107715665730740224" target="_blank" class="link-item" data-cursor="hover">
+                        <div class="link-icon">
+                            <svg viewBox="0 0 24 24"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+                        </div>
+                        <div class="link-content">
+                            <div class="link-label">Discord</div>
+                            <div class="link-value">@7256</div>
+                        </div>
+                        <div class="link-arrow">→</div>
+                    </a>
+
+                    <a href="https://github.com/SeekPlush-linux" target="_blank" class="link-item" data-cursor="hover">
+                        <div class="link-icon">
+                            <svg viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                        </div>
+                        <div class="link-content">
+                            <div class="link-label">GitHub</div>
+                            <div class="link-value">SeekPlush-linux</div>
+                        </div>
+                        <div class="link-arrow">→</div>
+                    </a>
+
+                    <a href="https://open.spotify.com/user/31wckzqkyqj4dco5f5suu4dtc67a" target="_blank" class="link-item" data-cursor="hover">
+                        <div class="link-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="fill-theme drop-shadow-theme"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"></path></svg>
+                        </div>
+                        <div class="link-content">
+                            <div class="link-label">Spotify</div>
+                            <div class="link-value">SeekPlush</div>
+                        </div>
+                        <div class="link-arrow">→</div>
+                    </a>
+
+                    <a href="https://www.roblox.com/users/4863366128/profile" target="_blank" class="link-item" data-cursor="hover">
+                        <div class="link-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="fill-theme drop-shadow-theme"><path d="M18.926 23.998 0 18.892 5.075.002 24 5.108ZM15.348 10.09l-5.282-1.453-1.414 5.273 5.282 1.453z"></path></svg>
+                        </div>
+                        <div class="link-content">
+                            <div class="link-label">Roblox</div>
+                            <div class="link-value">SeekPlushCool</div>
+                        </div>
+                        <div class="link-arrow">→</div>
+                    </a>
+
+                    <a href="https://fakecrime.bio/seek" target="_blank" class="link-item" data-cursor="hover">
+                        <div class="link-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_3" x="0px" y="0px" viewBox="0 0 128 128" style="enable-background:new 0 0 128 128;" xml:space="preserve"><path d="M69.68,54.04c0,0,28.97-46.41,29.63-47.57c0.66-1.16,0.8-3.29-1.02-3.29  c-1.82,0-46.95,46.07-46.95,46.07l-32.05,19c0,0-2.15,1.32-1.82,2.97s1.77,1.72,2.43,1.72s34.85-0.18,36.84-0.24  c2.47-0.07,1.86,3.44,1.86,3.44l-21.64,34.02c0,0-9.45,13.08-9.45,13.97c0,1.31,1.58,1.96,3.05,1.08  c1.14-0.68,74.84-63.13,78.09-67.42c0.88-1.17,1.33-4.25-2.3-4.25s-32.54,8.42-32.54,8.42L69.68,54.04z"/><path d="M64.61,50.35c-0.89,1.22-1.13,3.26,0.79,3.38c1.91,0.11,40.95-0.18,40.95-0.18  S78.46,79.18,70.02,86.83s-36.39,32.43-38.27,34.18c-1.84,1.72-3.51,3.3-4.19,3.08c-0.11-0.03-0.25-0.62,2.38-4.95  c2.4-3.95,25.44-42.56,26.34-44.02c0.9-1.46,1.69-2.7,2.14-3.38c0.45-0.68,1.91-4.39-1.13-4.39s-38,0.9-38,0.9s24.15-20.49,31.13-26  S96.96,3.18,98.29,3.18S65.51,49.12,64.61,50.35z"/></svg>
+                        </div>
+                        <div class="link-content">
+                            <div class="link-label">Fakecrime</div>
+                            <div class="link-value">/seek</div>
+                        </div>
+                        <div class="link-arrow">→</div>
+                    </a>
+
+                    <a href="mailto:me@seeky.gay" target="_blank" class="link-item" data-cursor="hover">
+                        <div class="link-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 512 370.23"><path fill="#fff" fill-rule="nonzero" d="M29.37 0h453.26C498.79 0 512 13.21 512 29.37v311.49c0 16.57-12.68 29.37-29.37 29.37H29.37C13.21 370.23 0 357.02 0 340.86V29.37C0 13.19 13.19 0 29.37 0zm-6.84 328.51l158.85-159.25L22.53 39.74v288.77zm176.34-144.99L35.1 347.7h440.43L319.02 183.55l-51.6 43.96v-.01c-4.05 3.47-10.11 3.66-14.39.18l-54.16-44.16zm137.28-14.57l153.32 160.82V38.33L336.15 168.95zM36.95 22.53l223 181.82L473.38 22.53H36.95z"/></svg>
+                        </div>
+                        <div class="link-content">
+                            <div class="link-label">Email</div>
+                            <div class="link-value">me@seeky.gay</div>
+                        </div>
+                        <div class="link-arrow">→</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast" id="toast">Copied to clipboard</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
