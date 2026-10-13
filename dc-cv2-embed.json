@@ -9,8 +9,7 @@
                 "accessory": {
                     "type": 11,
                     "media": {
-                        "url": "https://seeky.gay/pfp.png",
-                        "proxy_url": "https://seeky.gay/pfp.png"
+                        "url": "https://seeky.gay/pfp.png"
                     },
                     "description": null,
                     "spoiler": false
