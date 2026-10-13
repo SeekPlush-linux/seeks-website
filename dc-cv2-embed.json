@@ -5,10 +5,6 @@
     "spoiler": false,
     "components": [
       {
-        "type": 10,
-        "content": "# Seek's Website"
-      },
-      {
         "type": 9,
         "accessory": {
           "type": 11,
@@ -21,7 +17,11 @@
         "components": [
           {
             "type": 10,
-            "content": "Nothing much in here *yet* — just a simple bio page with my socials and stuff\n-# meow :3"
+            "content": "# Seek's Website"
+          },
+          {
+            "type": 10,
+            "content": "Nothing much in here *yet* — just a simple bio page with my socials and stuff\n\n-# meow :3"
           }
         ]
       },
