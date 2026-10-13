@@ -1,95 +1,95 @@
 {
-    "component": {
-        "type": 17,
-        "accent_color": 15105570,
-        "spoiler": false,
+  "component": {
+    "type": 17,
+    "accent_color": 15105570,
+    "spoiler": false,
+    "components": [
+      {
+        "type": 10,
+        "content": "# Seek's Website"
+      },
+      {
+        "type": 9,
+        "accessory": {
+          "type": 11,
+          "media": {
+            "url": "https://seeky.gay/pfp.png"
+          },
+          "description": null,
+          "spoiler": false
+        },
         "components": [
-            {
-                "type": 10,
-                "content": "# Seek's Website"
-            },
-            {
-                "type": 9,
-                "accessory": {
-                    "type": 11,
-                    "media": {
-                        "url": "https://seeky.gay/pfp.png"
-                    },
-                    "description": null,
-                    "spoiler": false
-                },
-                "components": [
-                    {
-                        "type": 10,
-                        "content": "Nothing much in here *yet* — just a simple bio page with my socials and stuff\n-# meow :3"
-                    }
-                ]
-            },
-            {
-                "type": 14,
-                "divider": true,
-                "spacing": 1
-            },
-            {
-                "type": 1,
-                "components": [
-                    {
-                        "type": 2,
-                        "style": 5,
-                        "label": "Discord",
-                        "emoji": {
-                            "id": "1559624210006151279"
-                        },
-                        "disabled": false,
-                        "url": "https://discord.com/users/1107715665730740224"
-                    },
-                    {
-                        "type": 2,
-                        "style": 5,
-                        "label": "GitHub",
-                        "emoji": {
-                            "id": "1559624499207344170"
-                        },
-                        "disabled": false,
-                        "url": "https://github.com/SeekPlush-linux"
-                    },
-                    {
-                        "type": 2,
-                        "style": 5,
-                        "label": "Spotify",
-                        "emoji": {
-                            "id": "1559624624935936023"
-                        },
-                        "disabled": false,
-                        "url": "https://open.spotify.com/user/31wckzqkyqj4dco5f5suu4dtc67a"
-                    }
-                ]
-            },
-            {
-                "type": 1,
-                "components": [
-                    {
-                        "type": 2,
-                        "style": 5,
-                        "label": "Roblox",
-                        "emoji": {
-                            "id": "1559625353599647775"
-                        },
-                        "disabled": false,
-                        "url": "https://www.roblox.com/users/4863366128/profile"
-                    },
-                    {
-                        "type": 2,
-                        "style": 5,
-                        "label": "Fakecrime",
-                        "emoji": {
-                            "id": "1559625466153795614"
-                        },
-                        "disabled": false,
-                        "url": "https://fakecrime.bio/seek"
-                    }
-                ]
-            }
+          {
+            "type": 10,
+            "content": "Nothing much in here *yet* — just a simple bio page with my socials and stuff\n-# meow :3"
+          }
         ]
-    }
+      },
+      {
+        "type": 14,
+        "divider": true,
+        "spacing": 1
+      },
+      {
+        "type": 1,
+        "components": [
+          {
+            "type": 2,
+            "style": 5,
+            "label": "Discord",
+            "emoji": {
+              "id": "1559624210006151279"
+            },
+            "disabled": false,
+            "url": "https://discord.com/users/1107715665730740224"
+          },
+          {
+            "type": 2,
+            "style": 5,
+            "label": "GitHub",
+            "emoji": {
+              "id": "1559624499207344170"
+            },
+            "disabled": false,
+            "url": "https://github.com/SeekPlush-linux"
+          },
+          {
+            "type": 2,
+            "style": 5,
+            "label": "Spotify",
+            "emoji": {
+              "id": "1559624624935936023"
+            },
+            "disabled": false,
+            "url": "https://open.spotify.com/user/31wckzqkyqj4dco5f5suu4dtc67a"
+          }
+        ]
+      },
+      {
+        "type": 1,
+        "components": [
+          {
+            "type": 2,
+            "style": 5,
+            "label": "Roblox",
+            "emoji": {
+              "id": "1559625353599647775"
+            },
+            "disabled": false,
+            "url": "https://www.roblox.com/users/4863366128/profile"
+          },
+          {
+            "type": 2,
+            "style": 5,
+            "label": "Fakecrime",
+            "emoji": {
+              "id": "1559625466153795614"
+            },
+            "disabled": false,
+            "url": "https://fakecrime.bio/seek"
+          }
+        ]
+      }
+    ]
+  }
 }
